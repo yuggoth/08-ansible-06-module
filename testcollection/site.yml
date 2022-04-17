@@ -1,0 +1,10 @@
+---
+- name: test module
+  hosts: localhost
+  gather_facts: false
+  become: yes
+  tasks:
+    - name: execute module
+      myownmodule:
+        path: '2.txt'
+        content: 'testtest'

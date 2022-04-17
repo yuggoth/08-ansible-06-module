@@ -1,0 +1,5 @@
+---      
+- name: run module
+  myownmodule:
+    path: '2.txt'
+    content: 'testtest'
